@@ -1,9 +1,9 @@
-import { useState } from 'react';
+import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const Form = (props) => {
-    let [boxes, setBoxes] = useState([]);
+const Form = (props) => {;
 
+    // PASSES INPUT DATA TO APP/PARENT
     const handleSubmit = (e, bgColor) => {
         e.preventDefault();
         props.onNewColor( bgColor );

@@ -6,6 +6,7 @@ import BoxBuilder from './components/BoxBuilder';
 function App() {
   const [boxes, setBoxes] = useState([]);
 
+  // CALLING FORM FUNCTION TO ADD INPUT TO LIST
   const colorInput = ( newColor ) => {
     setBoxes( [...boxes, newColor] );
   }
