@@ -7,6 +7,7 @@ const Form = (props) => {
     const handleSubmit = (e, bgColor) => {
         e.preventDefault();
         props.onNewColor( bgColor );
+        e.target[0].value = ""
     };
 
     return (
