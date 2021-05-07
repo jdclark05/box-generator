@@ -1,0 +1,16 @@
+.boxContainer {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.boxBuilder {
+    margin: 5px;
+    height: 15rem;
+    width: 15rem;
+    border: 2px solid #000;
+}
