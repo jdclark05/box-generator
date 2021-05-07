@@ -1,7 +1,7 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-const Form = (props) => {;
+const Form = (props) => {
 
     // PASSES INPUT DATA TO APP/PARENT
     const handleSubmit = (e, bgColor) => {
